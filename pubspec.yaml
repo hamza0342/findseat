@@ -7,6 +7,8 @@ environment:
   sdk: ">=2.17.0 <4.0.0"
 
 dependencies:
+  flutter_bloc: ^9.0.0
+  bloc: ^9.0.0  
   flutter:
     sdk: flutter
 
@@ -50,6 +52,7 @@ dependencies:
   stripe_payment: ^1.1.4   # ⚠️ Deprecated – might need migration later
 
 dev_dependencies:
+  bloc_test: ^9.1.0
   flutter_test:
     sdk: flutter
 
