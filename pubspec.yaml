@@ -7,10 +7,12 @@ environment:
   sdk: ">=2.17.0 <4.0.0"
 
 dependencies:
-  flutter_bloc: ^9.0.0
-  bloc: ^9.0.0  
   flutter:
     sdk: flutter
+
+  # State Management
+  flutter_bloc: ^9.0.0
+  bloc: ^9.0.0  
 
   # iOS style icons
   cupertino_icons: ^1.0.8
@@ -26,10 +28,6 @@ dependencies:
   google_maps_flutter: ^2.9.0
   dotted_border: ^2.1.0
   shimmer: ^3.0.0
-
-  # State Management / Streams
-  rxdart: ^0.28.0
-  flutter_bloc: ^9.0.0
 
   # Utilities
   freezed: ^2.5.7
@@ -52,20 +50,17 @@ dependencies:
   stripe_payment: ^1.1.4   # ⚠️ Deprecated – might need migration later
 
 dev_dependencies:
-  bloc_test: ^9.1.0
   flutter_test:
     sdk: flutter
 
+  bloc_test: ^9.1.0
   equatable: ^2.0.5
   meta: ^1.15.0
   sprintf: ^7.0.0
   build_runner: ^2.4.12
   retrofit_generator: ^8.1.2
   json_serializable: ^6.9.0
-
-  # Unit testing
   test: ^1.25.2
-  bloc_test: ^9.1.7
 
 flutter:
   uses-material-design: true
